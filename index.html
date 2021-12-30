@@ -1,0 +1,112 @@
+ <html>
+
+ <head>
+   <title>Emotion To Emoji</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+
+ <body>
+   <div class="container">
+
+     <center>
+
+       <p class="heading"><span style="font-weight:bolder;"><img src="head.png"></span>
+         <br>
+         <span class="emoji">&#129308;</span>
+         <span class="emoji">&#128076;</span>
+         <span class="emoji">&#129304;</span>
+         <span class="emoji">&#129305;</span>
+         <span class="emoji">&#9996;</span>
+         <span class="emoji">&#129310;</span>
+         <span class="emoji">&#129307;</span>
+
+       </p>
+       <br>
+       <br>
+       <p
+         style="font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: 87DFD6; letter-spacing: 5px;">
+         Machine is trained to recognize :-</p>
+       <div id="line"></div>
+
+       <div class="le">
+         <div class="text_div"><br>
+           <p>Awesome</p><br>
+         </div>
+         <div class="emoji_div">&#128076;</div>
+       </div>
+
+       <div class="le">
+         <div class="text_div"><br>
+           <p>Best of luck</p><br>
+         </div>
+         <div class="emoji_div">&#128077;</div>
+       </div>
+
+       <div class="le">
+         <div class="text_div"><br>
+           <p>Victory</p><br>
+         </div>
+         <div class="emoji_div">&#9996;</div>
+       </div>
+
+       <div class="le">
+         <div class="text_div"><br>
+           <p>Yoooo!</p><br>
+         </div>
+         <div class="emoji_div">&#129304;</div>
+       </div>
+
+       <div class="le">
+         <div class="text_div"><br>
+           <p>Namaste</p><br>
+         </div>
+         <div class="emoji_div">&#128591;</div>
+       </div>
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+       <div id="holder_div1" class="row">
+         <div
+           style="padding: 30px; font-size: 30px; color: white; height: 20%; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color:#33425B;">
+           Webcam</div>
+           <div id="camera"></div>
+           <div id="capture" onclick="capture()" >Capture</div>
+       </div>
+
+       <div class="row">
+        <label class="predict_label">Prediction 1 :</label>
+        <br>
+        <p class="emoji_name" id="result_emotion_name"></p>
+        <p class="emoji_1" id="update_emoji"></p>
+        
+        <label class="predict_label">Prediction 2 :</label>
+        <p class="emoji_name" id="result_emotion_name2"></p>
+        <p class="emoji_1" id="update_emoji2"></p>
+      </div>
+
+      <div id="holder_div1" class="row">
+        <div
+          style="padding: 30px; font-size: 30px; color: white; height: 20%; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color:#33425B;">
+          SnapShot</div>
+          <div id="camera"></div>
+          <div id="check" onclick="check()" >Predict Gesture</div>
+      </div>
+
+
+     </center>
+     <br>
+     <br>
+     <BR>
+   </div>
+   <script src="main.js"></script>
+
+ </body>
+
+ </html>

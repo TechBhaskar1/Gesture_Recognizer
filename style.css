@@ -1,0 +1,120 @@
+body {
+  background: #F9F8EB;
+}
+
+span {
+  font-size: 30px;
+}
+
+
+
+#result_emotion_name,
+#result_emotion_name2 {
+  color: black;
+}
+
+.emotion_name {
+  font-size: 40px;
+}
+
+.emoji {
+  font-size: 70px;
+}
+
+.heading {
+  letter-spacing: 12px;
+  font-size: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-variant: small-caps;
+  padding: 20px;
+  background-color: #38817A;
+}
+
+.heading:hover {
+  background: #459c94;
+}
+
+.le {
+  float: left;
+  width: 18%;
+  height: 300px;
+  border: 2px #33425B solid;
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+  background: white;
+
+}
+
+.text_div {
+  font: 30px white;
+  background: #38817A;
+  border-bottom: #33425B 2px solid;
+  font-variant: small-caps;
+
+}
+
+.emoji_div {
+  font-size: 90px;
+  margin-top: 40px;
+  background: white;
+
+}
+
+#line {
+  height: 4px;
+  background: #33425B;
+}
+
+#holder_div1 {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border: 2px #33425B solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#camera {
+  width: 350px;
+  height: 300px;
+
+}
+#capture{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: linen;
+  padding: 30px;
+  font-size: 30px;
+  background-color: limegreen;
+ 
+}
+#capture:hover {
+  background-color: rgb(41, 146, 41);
+  cursor: pointer;
+  height: 20%;
+}
+#check{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: linen;
+  padding: 30px;
+  font-size: 30px;
+  background-color: red;
+ 
+}
+#check:hover {
+  background-color: rgb(163, 4, 4);
+  cursor: pointer;
+  height: 20%;
+}
+.row{
+  float: left;
+  margin: 50px;
+
+}
+.predict_label{
+  font-size: 20px;
+  color: #38817A;
+}

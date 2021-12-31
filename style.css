@@ -81,6 +81,10 @@ span {
   height: 300px;
 
 }
+#result{
+  width: 350px;
+  height: 300px;
+}
 #capture{
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -117,4 +121,9 @@ span {
 .predict_label{
   font-size: 20px;
   color: #38817A;
+}
+#captured_image{
+  height: 260px;
+  width: 350px;
+  margin-top: 20px;
 }

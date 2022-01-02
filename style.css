@@ -11,8 +11,13 @@ span {
 #result_emotion_name,
 #result_emotion_name2 {
   color: black;
+  font-size: 30px;
 }
+#update_emoji,
+#update_emoji2{
+  font-size: 30px;
 
+}
 .emotion_name {
   font-size: 40px;
 }
@@ -44,7 +49,7 @@ span {
   color: white;
   margin: 10px;
   background: white;
-
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .text_div {
@@ -74,6 +79,16 @@ span {
   border: 2px #33425B solid;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  box-shadow: 4px 3px 20px 5px rgb(1, 104, 1);
+}
+#holder_div2 {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border: 2px #33425B solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 4px 3px 20px 5px rgb(156, 0, 0);
 }
 
 #camera {
